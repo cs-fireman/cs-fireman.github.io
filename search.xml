@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>EggCampus所需配置环境</title>
+      <link href="/2023/07/05/EggCampusSetting/"/>
+      <url>/2023/07/05/EggCampusSetting/</url>
+      
+        <content type="html"><![CDATA[<h2 id="1-在github上将项目clone到本地，创建自己的分支，pull-build2-分支"><a href="#1-在github上将项目clone到本地，创建自己的分支，pull-build2-分支" class="headerlink" title="1. 在github上将项目clone到本地，创建自己的分支，pull build2 分支"></a>1. 在github上将项目clone到本地，创建自己的分支，pull build2 分支</h2><p>(1)首先需要安装<a href="https://git-scm.com/download/win">Git</a><br>(2)创建文件夹，并在编辑器(如vscode)上新建终端<br>(3)<code>git clone url</code> 将github上的项目克隆到本地<br>(4)<code>git checkout -b branch_name</code> 创建并切换到<code>branch_name</code>这个分支<br>(5)<code>git pull origin build2</code> 将项目中的<code>build2</code>分支拉到本地</p><h2 id="2-配置node-js环境，全局安装npm，全局安装pnpm"><a href="#2-配置node-js环境，全局安装npm，全局安装pnpm" class="headerlink" title="2. 配置node.js环境，全局安装npm，全局安装pnpm"></a>2. 配置node.js环境，全局安装npm，全局安装pnpm</h2><p>(1)nodejs配环境见这篇博客：<a href="https://blog.csdn.net/weixin_55992854/article/details/121140754">node,js的安装和全局配置</a>，如果<code>node -v</code>和<code>npm -v</code>都能执行的话说明配置成功<br>(2)<code>npm install -g pnpm</code>全局安装pnpm，如果<code>pnpm -v</code>能够执行的话说明配置成功。如果终端报错无法加载文件因为在此系统上禁止运行脚本，说明是权限有问题，需要修改权限，我通过<code>set-ExeutionPolicy RemoteSigned</code>修改权限之后可以执行<code>pnpm -v</code></p><h2 id="3-用pnpm生成文件用微信开发者工具打开"><a href="#3-用pnpm生成文件用微信开发者工具打开" class="headerlink" title="3. 用pnpm生成文件用微信开发者工具打开"></a>3. 用pnpm生成文件用微信开发者工具打开</h2><p>(1)环境配置好之后进入项目文件夹，打开终端执行<code>pnpm install</code>和<code>pnpm dev</code>，项目文件目录会生成一个<code>/dist/dev/mp-weixin</code><br>(2)下载<a href="https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html">微信开发者工具</a>，用它打开<code>mp-weixin</code><br>(3)如果有报错试试清除缓存</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> EggCampus项目 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 环境配置 </tag>
+            
+            <tag> 前端 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>1.基础算法</title>
       <link href="/2023/07/01/comment_trial/"/>
       <url>/2023/07/01/comment_trial/</url>
